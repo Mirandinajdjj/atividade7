@@ -9,6 +9,7 @@
     --main-background: #1e293b;
     --text-color: #e2e8f0;
     --nav-background: #475569;
+    --a-hover: #5a5a96;
 }
 
 body {
@@ -32,3 +33,10 @@ nav {
 ul, li {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
